@@ -26,7 +26,6 @@ import android.widget.TextView
 
 class MainActivity : AppCompatActivity() {
     lateinit var button: Button
-//    lateinit var button2: Button
     lateinit var imageView: ImageView
     lateinit var textView: TextView
 
@@ -35,12 +34,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         imageView = findViewById(R.id.imageView)
         button = findViewById(R.id.button)
-//        button2 = findViewById(R.id.button2)
-//        textView = findViewById(R.id.textview)
-//        button2.setOnClickListener{
-//            val takePicture = Intent(ACTION_IMAGE_CAPTURE)
-//            startActivityForResult(takePicture, 123)
-//        }
         button.setOnClickListener{
             val intent = Intent()
             intent.type = "image/*"
