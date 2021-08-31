@@ -18,6 +18,7 @@ import com.google.mlkit.vision.face.*
 import kotlinx.android.synthetic.main.activity_main.*
 import java.io.IOException
 import android.R.attr.data
+import android.annotation.SuppressLint
 
 import android.graphics.Bitmap
 import android.provider.MediaStore.ACTION_IMAGE_CAPTURE
